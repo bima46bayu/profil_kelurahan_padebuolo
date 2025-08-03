@@ -17,7 +17,7 @@ export default function SejarahPage() {
           </h2>
           <div className="mx-auto w-full max-w-md md:max-w-lg lg:max-w-xl aspect-[4/3] relative rounded-xl shadow-lg overflow-hidden mb-10">
             <Image
-              src="/assets/sejarah/artikel1.jpg"
+              src="/assets/sejarah/kantor-kelurahan-pade.jpg"
               alt="Menara di Kelurahan Padebuolo"
               fill
               className="object-cover"
@@ -48,8 +48,8 @@ export default function SejarahPage() {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              "/assets/sejarah/artikel1.jpg", 
-              "/assets/sejarah/dokumentasi-lama.jpg"
+              "/assets/sejarah/artikel2.jpeg", 
+              "/assets/sejarah/artikel3.jpg"
               // Tambah gambar lain di sini jika perlu
             ].map((src, index) => (
               <div
